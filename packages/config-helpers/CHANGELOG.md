@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.3.0](https://github.com/lumirlumir/fork-rewrite/compare/config-helpers-v0.2.2...config-helpers-v0.3.0) (2025-05-13)
+
+
+### Features
+
+* Add globalIgnores helper function ([#159](https://github.com/lumirlumir/fork-rewrite/issues/159)) ([d8e05d8](https://github.com/lumirlumir/fork-rewrite/commit/d8e05d8f7272fd0db351829ced856dac4eed030b))
+* config-helpers package ([#152](https://github.com/lumirlumir/fork-rewrite/issues/152)) ([906d375](https://github.com/lumirlumir/fork-rewrite/commit/906d37513ca59da7568aa1895ca786e69c69a07f))
+* Look up flat/ config alternatives in defineConfig ([#167](https://github.com/lumirlumir/fork-rewrite/issues/167)) ([0e1a2e0](https://github.com/lumirlumir/fork-rewrite/commit/0e1a2e0f04f72fed0fd5645c1355d90335664a7a))
+
+
+### Bug Fixes
+
+* Upgrade @eslint/core ([#197](https://github.com/lumirlumir/fork-rewrite/issues/197)) ([a830283](https://github.com/lumirlumir/fork-rewrite/commit/a830283cd05a7a471aeec5f4589491f3c4092986))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @eslint/core bumped from ^0.14.0 to ^0.15.0
+
 ## [0.2.2](https://github.com/eslint/rewrite/compare/config-helpers-v0.2.1...config-helpers-v0.2.2) (2025-05-01)
 
 
