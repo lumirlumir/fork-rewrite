@@ -1,5 +1,41 @@
 # Changelog
 
+## [0.15.0](https://github.com/lumirlumir/fork-rewrite/compare/core-v0.14.0...core-v0.15.0) (2025-05-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Add getLoc/getRange to SourceCode interface ([#89](https://github.com/lumirlumir/fork-rewrite/issues/89))
+
+### Features
+
+* Add `Language.defaultLanguageOptions` ([#123](https://github.com/lumirlumir/fork-rewrite/issues/123)) ([1ecf0f8](https://github.com/lumirlumir/fork-rewrite/commit/1ecf0f88808a7629e06e949dea8eb1ec4fd2f472))
+* add CommonJS `core` types ([#102](https://github.com/lumirlumir/fork-rewrite/issues/102)) ([6caa5e1](https://github.com/lumirlumir/fork-rewrite/commit/6caa5e1408d94387277abc65ff2b6d6b1d005488))
+* add core types for language-specific rule definitions ([#178](https://github.com/lumirlumir/fork-rewrite/issues/178)) ([fd9b571](https://github.com/lumirlumir/fork-rewrite/commit/fd9b571554085cb5ea9f9831a38650a49dfebb32))
+* Add Directive and DirectiveType ([#112](https://github.com/lumirlumir/fork-rewrite/issues/112)) ([e5bbcf1](https://github.com/lumirlumir/fork-rewrite/commit/e5bbcf148874be07d5667f34ed395faaf8c72972))
+* Add eslint/core package ([#68](https://github.com/lumirlumir/fork-rewrite/issues/68)) ([e3d309d](https://github.com/lumirlumir/fork-rewrite/commit/e3d309d93fefe4e10f40568e89f380159c7f63d3))
+* Add getLoc/getRange to SourceCode interface ([#89](https://github.com/lumirlumir/fork-rewrite/issues/89)) ([d51f979](https://github.com/lumirlumir/fork-rewrite/commit/d51f9791aecd9aa80136a0926e57549df9e25ab3))
+* Add Language#normalizeLanguageOptions() ([#131](https://github.com/lumirlumir/fork-rewrite/issues/131)) ([3591a78](https://github.com/lumirlumir/fork-rewrite/commit/3591a7805a060cb130d40d61f200431b782431d8))
+* Add meta.language and meta.dialects to RuleDefinition ([#156](https://github.com/lumirlumir/fork-rewrite/issues/156)) ([dac0387](https://github.com/lumirlumir/fork-rewrite/commit/dac0387fc3dd7e74811ae045ab782c70366bb14c))
+* Add more type definitions ([#81](https://github.com/lumirlumir/fork-rewrite/issues/81)) ([df3263b](https://github.com/lumirlumir/fork-rewrite/commit/df3263b336b663b22be32bf0c499a70b378b5021))
+* Add plugin-kit package ([#99](https://github.com/lumirlumir/fork-rewrite/issues/99)) ([09ce430](https://github.com/lumirlumir/fork-rewrite/commit/09ce43073760b69a3bcca89f99793549cd566bf6))
+* Add rule types ([#110](https://github.com/lumirlumir/fork-rewrite/issues/110)) ([ffa176f](https://github.com/lumirlumir/fork-rewrite/commit/ffa176f0c80c14c8ba088d2ba359af4b2805c4f5))
+* Check messageIds in context.report() ([#140](https://github.com/lumirlumir/fork-rewrite/issues/140)) ([1c9ca4d](https://github.com/lumirlumir/fork-rewrite/commit/1c9ca4d0a4726218948a92ebc2e8be7a13d224d4))
+* make `TextSourceCodeBase` a generic type ([#182](https://github.com/lumirlumir/fork-rewrite/issues/182)) ([484b6ca](https://github.com/lumirlumir/fork-rewrite/commit/484b6ca3149354736317fca09efd3156caa4f4f9))
+* Set type for RuleDefinition.defaultOptions ([#173](https://github.com/lumirlumir/fork-rewrite/issues/173)) ([d5806df](https://github.com/lumirlumir/fork-rewrite/commit/d5806dfe5c2af849b84f39e3eb0300aaa7c29092))
+* Update RuleDefinition for frozen and deprecations ([#149](https://github.com/lumirlumir/fork-rewrite/issues/149)) ([4964322](https://github.com/lumirlumir/fork-rewrite/commit/49643228d230f2d0edce6d2a310ccf3131b72d89))
+* Update RuleDefinition with `meta.defaultOptions` ([#150](https://github.com/lumirlumir/fork-rewrite/issues/150)) ([e9a987e](https://github.com/lumirlumir/fork-rewrite/commit/e9a987e8d92a6383e9782332e515aa2a719a18af))
+
+
+### Bug Fixes
+
+* make `plugin-kit` types usable in CommonJS ([#143](https://github.com/lumirlumir/fork-rewrite/issues/143)) ([f77ba17](https://github.com/lumirlumir/fork-rewrite/commit/f77ba177d4e4c5d2ed828cfd9a5149df2ccb3a7f))
+* Make meta.replacedBy read only ([#146](https://github.com/lumirlumir/fork-rewrite/issues/146)) ([7dfc0d9](https://github.com/lumirlumir/fork-rewrite/commit/7dfc0d92e617108c0e9493f09db3f86919e02fd1))
+* non-optional properties in generic interfaces ([#132](https://github.com/lumirlumir/fork-rewrite/issues/132)) ([d0b2e70](https://github.com/lumirlumir/fork-rewrite/commit/d0b2e705c49709cfb92a9110c65cd628c91aaa29))
+* Types to align with older ESLint types ([#155](https://github.com/lumirlumir/fork-rewrite/issues/155)) ([664740a](https://github.com/lumirlumir/fork-rewrite/commit/664740a8d4a93bee896cec3a661bf2072e893e24))
+* Update RuleDefinition type ([#138](https://github.com/lumirlumir/fork-rewrite/issues/138)) ([0a0ea6f](https://github.com/lumirlumir/fork-rewrite/commit/0a0ea6fbac827b354ee18f5b10eefad2bc0794f7))
+* Update RuleVisitor type ([#135](https://github.com/lumirlumir/fork-rewrite/issues/135)) ([156d601](https://github.com/lumirlumir/fork-rewrite/commit/156d601181deb362a2864c4d47d4e3da8609500b))
+
 ## [0.14.0](https://github.com/eslint/rewrite/compare/core-v0.13.0...core-v0.14.0) (2025-04-30)
 
 
