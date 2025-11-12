@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.0](https://github.com/lumirlumir/fork-rewrite/compare/mcp-v0.1.1...mcp-v0.2.0) (2025-11-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* Require Node.js ^20.19.0 || ^22.13.0 || >=24 ([#297](https://github.com/lumirlumir/fork-rewrite/issues/297))
+
+### Features
+
+* Add separate MCP server package ([#201](https://github.com/lumirlumir/fork-rewrite/issues/201)) ([99f41cf](https://github.com/lumirlumir/fork-rewrite/commit/99f41cf3c4788a3bc0111de807ce599b8084d480))
+* Require Node.js ^20.19.0 || ^22.13.0 || &gt;=24 ([#297](https://github.com/lumirlumir/fork-rewrite/issues/297)) ([acc623c](https://github.com/lumirlumir/fork-rewrite/commit/acc623c807bf8237a26b18291f04dd99e4e4981a))
+
+
+### Bug Fixes
+
+* Allow MCP server to fix issues when asked to ([#248](https://github.com/lumirlumir/fork-rewrite/issues/248)) ([e54bc88](https://github.com/lumirlumir/fork-rewrite/commit/e54bc880107b6d75cd4951aaf4ee4e64c44503f6))
+
 ## [0.1.1](https://github.com/eslint/rewrite/compare/mcp-v0.1.0...mcp-v0.1.1) (2025-07-30)
 
 
