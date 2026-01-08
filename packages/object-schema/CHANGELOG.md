@@ -1,5 +1,31 @@
 # Changelog
 
+## [4.0.0](https://github.com/lumirlumir/fork-rewrite/compare/object-schema-v3.0.0...object-schema-v4.0.0) (2026-01-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* Require Node.js ^20.19.0 || ^22.13.0 || >=24 ([#297](https://github.com/lumirlumir/fork-rewrite/issues/297))
+
+### Features
+
+* Add types to config-array ([#3](https://github.com/lumirlumir/fork-rewrite/issues/3)) ([8b80e81](https://github.com/lumirlumir/fork-rewrite/commit/8b80e81cd0613ef1eccd15eacc0dbfad7a689dbf))
+* Require Node.js ^20.19.0 || ^22.13.0 || &gt;=24 ([#297](https://github.com/lumirlumir/fork-rewrite/issues/297)) ([acc623c](https://github.com/lumirlumir/fork-rewrite/commit/acc623c807bf8237a26b18291f04dd99e4e4981a))
+* sync packages meta ([#12](https://github.com/lumirlumir/fork-rewrite/issues/12)) ([27fcd25](https://github.com/lumirlumir/fork-rewrite/commit/27fcd259dab40e4ac1742b5699b74701a6b3660e))
+* tsc + ESM for object-schema ([b865844](https://github.com/lumirlumir/fork-rewrite/commit/b8658440cc6e37e5392f32a33bdefb012bfd4290))
+
+
+### Bug Fixes
+
+* Add 'main' and 'types' entries to package.json ([#48](https://github.com/lumirlumir/fork-rewrite/issues/48)) ([16ee1fa](https://github.com/lumirlumir/fork-rewrite/commit/16ee1fad998cc654208628ccb06958d29f95a3a5))
+* CommonJS types in all packages ([#148](https://github.com/lumirlumir/fork-rewrite/issues/148)) ([c91866c](https://github.com/lumirlumir/fork-rewrite/commit/c91866cc9fe16fb62bc48fc1cc7f9e18c6fea013))
+* fix `config-array` and `object-schema` types ([#294](https://github.com/lumirlumir/fork-rewrite/issues/294)) ([a902bc4](https://github.com/lumirlumir/fork-rewrite/commit/a902bc4e27639ba5975b5d793314235737dc2c1a))
+* improve type support for isolated dependencies in pnpm ([#289](https://github.com/lumirlumir/fork-rewrite/issues/289)) ([f8df139](https://github.com/lumirlumir/fork-rewrite/commit/f8df139631694431ecfc651e656932e283d4d14f))
+* Minor change to trigger new releases ([#13](https://github.com/lumirlumir/fork-rewrite/issues/13)) ([8184402](https://github.com/lumirlumir/fork-rewrite/commit/8184402d5efc8028380cbdd5669f600aea5c050a))
+* npm and JSR package contents ([#16](https://github.com/lumirlumir/fork-rewrite/issues/16)) ([3e9eb67](https://github.com/lumirlumir/fork-rewrite/commit/3e9eb67964327ef908ab27fa0f14990580ec801c))
+* Update and standardize READMEs ([#33](https://github.com/lumirlumir/fork-rewrite/issues/33)) ([75521f7](https://github.com/lumirlumir/fork-rewrite/commit/75521f7d2e4aac9e77310803e7569d9d5b39869c))
+* Update RuleVisitor type ([#135](https://github.com/lumirlumir/fork-rewrite/issues/135)) ([156d601](https://github.com/lumirlumir/fork-rewrite/commit/156d601181deb362a2864c4d47d4e3da8609500b))
+
 ## [3.0.0](https://github.com/eslint/rewrite/compare/object-schema-v2.1.7...object-schema-v3.0.0) (2025-11-14)
 
 
