@@ -1,5 +1,65 @@
 # Changelog
 
+## [0.24.0](https://github.com/lumirlumir/fork-rewrite/compare/config-array-v0.23.5...config-array-v0.24.0) (2026-05-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* update minimatch ([#273](https://github.com/lumirlumir/fork-rewrite/issues/273))
+* Require Node.js ^20.19.0 || ^22.13.0 || >=24 ([#297](https://github.com/lumirlumir/fork-rewrite/issues/297))
+* Support `basePath` property in config objects ([#223](https://github.com/lumirlumir/fork-rewrite/issues/223))
+* correctly detect if file is outside base path on Windows ([#59](https://github.com/lumirlumir/fork-rewrite/issues/59))
+* Allow escaping characters on Windows ([#61](https://github.com/lumirlumir/fork-rewrite/issues/61))
+* treat `*` as a universal pattern ([#50](https://github.com/lumirlumir/fork-rewrite/issues/50))
+* Remove `ConfigArray#isExplicitMatch()` ([#53](https://github.com/lumirlumir/fork-rewrite/issues/53))
+* add method `getConfigStatus`, update `isFileIgnored` ([#7](https://github.com/lumirlumir/fork-rewrite/issues/7))
+
+### Features
+
+* Add config-array package ([4a2274d](https://github.com/lumirlumir/fork-rewrite/commit/4a2274def58d1d41352b33f4e9c197d258fb5a36))
+* add method `getConfigStatus`, update `isFileIgnored` ([#7](https://github.com/lumirlumir/fork-rewrite/issues/7)) ([400c5f9](https://github.com/lumirlumir/fork-rewrite/commit/400c5f92b7370f8ab6efd1b8dcd90ac1c1d04dd4))
+* Add types to config-array ([#3](https://github.com/lumirlumir/fork-rewrite/issues/3)) ([8b80e81](https://github.com/lumirlumir/fork-rewrite/commit/8b80e81cd0613ef1eccd15eacc0dbfad7a689dbf))
+* Export ObjectSchema ([#101](https://github.com/lumirlumir/fork-rewrite/issues/101)) ([f149f85](https://github.com/lumirlumir/fork-rewrite/commit/f149f855e81d4ba798a48873c9ab780bf8a0ac3a))
+* normalize patterns to handle "./" prefix in files and ignores ([#162](https://github.com/lumirlumir/fork-rewrite/issues/162)) ([bbbe909](https://github.com/lumirlumir/fork-rewrite/commit/bbbe9098fe112ca646947b83f71fbf5639f932e6))
+* Remove `ConfigArray#isExplicitMatch()` ([#53](https://github.com/lumirlumir/fork-rewrite/issues/53)) ([10d8200](https://github.com/lumirlumir/fork-rewrite/commit/10d8200fbc99ae4496fc308af82930bb41aeacfa))
+* Require Node.js ^20.19.0 || ^22.13.0 || &gt;=24 ([#297](https://github.com/lumirlumir/fork-rewrite/issues/297)) ([acc623c](https://github.com/lumirlumir/fork-rewrite/commit/acc623c807bf8237a26b18291f04dd99e4e4981a))
+* Support `basePath` property in config objects ([#223](https://github.com/lumirlumir/fork-rewrite/issues/223)) ([40d31ba](https://github.com/lumirlumir/fork-rewrite/commit/40d31ba42a9fe0da10b6ca5e1b10f1f2b10c5f90))
+* sync packages meta ([#12](https://github.com/lumirlumir/fork-rewrite/issues/12)) ([27fcd25](https://github.com/lumirlumir/fork-rewrite/commit/27fcd259dab40e4ac1742b5699b74701a6b3660e))
+* update minimatch ([#273](https://github.com/lumirlumir/fork-rewrite/issues/273)) ([8b92470](https://github.com/lumirlumir/fork-rewrite/commit/8b9247004d76aef90da7c211902a0ca118d4b47f))
+
+
+### Bug Fixes
+
+* `basePath` directory can never be ignored ([#92](https://github.com/lumirlumir/fork-rewrite/issues/92)) ([c94ab2d](https://github.com/lumirlumir/fork-rewrite/commit/c94ab2dea6410698a4b6814f921b39774b0e56ab))
+* Add 'main' and 'types' entries to package.json ([#48](https://github.com/lumirlumir/fork-rewrite/issues/48)) ([16ee1fa](https://github.com/lumirlumir/fork-rewrite/commit/16ee1fad998cc654208628ccb06958d29f95a3a5))
+* Allow escaping characters on Windows ([#61](https://github.com/lumirlumir/fork-rewrite/issues/61)) ([8501890](https://github.com/lumirlumir/fork-rewrite/commit/85018903815908bcfd940bbda347f3f17663e4bd))
+* CommonJS types in all packages ([#148](https://github.com/lumirlumir/fork-rewrite/issues/148)) ([c91866c](https://github.com/lumirlumir/fork-rewrite/commit/c91866cc9fe16fb62bc48fc1cc7f9e18c6fea013))
+* ConfigObject type ([#27](https://github.com/lumirlumir/fork-rewrite/issues/27)) ([e42b15d](https://github.com/lumirlumir/fork-rewrite/commit/e42b15dc4a424030cac97582c0d500a76b13f328))
+* consider negated patterns universal ([#220](https://github.com/lumirlumir/fork-rewrite/issues/220)) ([2dbe2b9](https://github.com/lumirlumir/fork-rewrite/commit/2dbe2b9c9431997bb4a1ab0335d8101564b62a41))
+* correct `config-array` matcher types ([#373](https://github.com/lumirlumir/fork-rewrite/issues/373)) ([7b89f2f](https://github.com/lumirlumir/fork-rewrite/commit/7b89f2f99379682148d03f6bb7ef03b0fce223d4))
+* correct extraConfigTypes validation error messages ([#388](https://github.com/lumirlumir/fork-rewrite/issues/388)) ([25aba34](https://github.com/lumirlumir/fork-rewrite/commit/25aba34b8f4ed13b3e01382302a5e6395e4302a1))
+* correctly detect if file is outside base path on Windows ([#59](https://github.com/lumirlumir/fork-rewrite/issues/59)) ([f93aa4c](https://github.com/lumirlumir/fork-rewrite/commit/f93aa4ca0a9a68b5c90847cd3d24801196abb405))
+* explicit match in array elements of `files` ([#218](https://github.com/lumirlumir/fork-rewrite/issues/218)) ([e84cbd7](https://github.com/lumirlumir/fork-rewrite/commit/e84cbd7468765c25c01fc420b43d75a256533da2))
+* fix `config-array` and `object-schema` types ([#294](https://github.com/lumirlumir/fork-rewrite/issues/294)) ([a902bc4](https://github.com/lumirlumir/fork-rewrite/commit/a902bc4e27639ba5975b5d793314235737dc2c1a))
+* improve `extraConfigTypes` validation ([#390](https://github.com/lumirlumir/fork-rewrite/issues/390)) ([39f005c](https://github.com/lumirlumir/fork-rewrite/commit/39f005ccf79072de23d27ffbcb33a2359d3ca4d2))
+* Include package.json ([ce52aaa](https://github.com/lumirlumir/fork-rewrite/commit/ce52aaaec724ecf9dc9826efa680f6851b576357))
+* Minor change to trigger new releases ([#13](https://github.com/lumirlumir/fork-rewrite/issues/13)) ([8184402](https://github.com/lumirlumir/fork-rewrite/commit/8184402d5efc8028380cbdd5669f600aea5c050a))
+* npm and JSR package contents ([#16](https://github.com/lumirlumir/fork-rewrite/issues/16)) ([3e9eb67](https://github.com/lumirlumir/fork-rewrite/commit/3e9eb67964327ef908ab27fa0f14990580ec801c))
+* re-export ESM types in CommonJS ([#416](https://github.com/lumirlumir/fork-rewrite/issues/416)) ([ef16f80](https://github.com/lumirlumir/fork-rewrite/commit/ef16f80b9221c412992a1e9d54b35d155db1b4ed))
+* revert re-export ESM types in CommonJS ([#427](https://github.com/lumirlumir/fork-rewrite/issues/427)) ([9b16fe1](https://github.com/lumirlumir/fork-rewrite/commit/9b16fe1af3432e92bdb193a5d1f6c89c4b0e3093))
+* treat `*` as a universal pattern ([#50](https://github.com/lumirlumir/fork-rewrite/issues/50)) ([79ad4bc](https://github.com/lumirlumir/fork-rewrite/commit/79ad4bcd09f73e66168ee3936c3c260af2c9953a))
+* update `minimatch` to `10.2.1` to address security vulnerabilities ([#376](https://github.com/lumirlumir/fork-rewrite/issues/376)) ([9a3dc87](https://github.com/lumirlumir/fork-rewrite/commit/9a3dc87340799eeeb2fd88fd943b55b6bcf4873a))
+* Update and standardize READMEs ([#33](https://github.com/lumirlumir/fork-rewrite/issues/33)) ([75521f7](https://github.com/lumirlumir/fork-rewrite/commit/75521f7d2e4aac9e77310803e7569d9d5b39869c))
+* update dependency minimatch to ^10.2.4 ([#387](https://github.com/lumirlumir/fork-rewrite/issues/387)) ([538c049](https://github.com/lumirlumir/fork-rewrite/commit/538c049d9e0956df85806400b498e7d92f4229aa))
+* Update RuleVisitor type ([#135](https://github.com/lumirlumir/fork-rewrite/issues/135)) ([156d601](https://github.com/lumirlumir/fork-rewrite/commit/156d601181deb362a2864c4d47d4e3da8609500b))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @eslint/object-schema bumped from ^3.0.5 to ^4.0.0
+
 ## [0.23.5](https://github.com/eslint/rewrite/compare/config-array-v0.23.4...config-array-v0.23.5) (2026-04-08)
 
 

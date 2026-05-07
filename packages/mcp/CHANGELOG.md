@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.4.0](https://github.com/lumirlumir/fork-rewrite/compare/mcp-v0.3.4...mcp-v0.4.0) (2026-05-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove `unstable_config_lookup_from_file` from MCP in v10 ([#334](https://github.com/lumirlumir/fork-rewrite/issues/334))
+* Require Node.js ^20.19.0 || ^22.13.0 || >=24 ([#297](https://github.com/lumirlumir/fork-rewrite/issues/297))
+
+### Features
+
+* Add separate MCP server package ([#201](https://github.com/lumirlumir/fork-rewrite/issues/201)) ([99f41cf](https://github.com/lumirlumir/fork-rewrite/commit/99f41cf3c4788a3bc0111de807ce599b8084d480))
+* Require Node.js ^20.19.0 || ^22.13.0 || &gt;=24 ([#297](https://github.com/lumirlumir/fork-rewrite/issues/297)) ([acc623c](https://github.com/lumirlumir/fork-rewrite/commit/acc623c807bf8237a26b18291f04dd99e4e4981a))
+
+
+### Bug Fixes
+
+* Allow MCP server to fix issues when asked to ([#248](https://github.com/lumirlumir/fork-rewrite/issues/248)) ([e54bc88](https://github.com/lumirlumir/fork-rewrite/commit/e54bc880107b6d75cd4951aaf4ee4e64c44503f6))
+* remove `unstable_config_lookup_from_file` from MCP in v10 ([#334](https://github.com/lumirlumir/fork-rewrite/issues/334)) ([69b0635](https://github.com/lumirlumir/fork-rewrite/commit/69b0635bbb3a46439e079a1854769ddf41a92d25))
+* update dependency eslint to ^10.0.1 ([#379](https://github.com/lumirlumir/fork-rewrite/issues/379)) ([349fffd](https://github.com/lumirlumir/fork-rewrite/commit/349fffdc6935dd3b21330c8b4b71f8b905baf7e7))
+* update dependency eslint to ^10.0.2 ([#383](https://github.com/lumirlumir/fork-rewrite/issues/383)) ([ae7268b](https://github.com/lumirlumir/fork-rewrite/commit/ae7268b073ee56a661ffd444cba6b6e9a1de6b30))
+* update dependency eslint to ^10.0.3 ([#398](https://github.com/lumirlumir/fork-rewrite/issues/398)) ([c5bc278](https://github.com/lumirlumir/fork-rewrite/commit/c5bc278858c0baaf9edc6c626c28c70a25bdf4e3))
+* update dependency eslint to ^10.1.0 ([#408](https://github.com/lumirlumir/fork-rewrite/issues/408)) ([50df330](https://github.com/lumirlumir/fork-rewrite/commit/50df3301295c96b74894506f7e07aea5387c7d5d))
+* update dependency eslint to ^10.2.0 ([#423](https://github.com/lumirlumir/fork-rewrite/issues/423)) ([fda136b](https://github.com/lumirlumir/fork-rewrite/commit/fda136b3c2223fa0e4819c18acd687a99d2a793f))
+* update dependency eslint to ^10.2.1 ([#433](https://github.com/lumirlumir/fork-rewrite/issues/433)) ([6c078ea](https://github.com/lumirlumir/fork-rewrite/commit/6c078ea93b99fa6e7a670d439c8856e6dbdaf310))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @eslint/plugin-kit bumped from ^0.7.1 to ^0.8.0
+
 ## [0.3.4](https://github.com/eslint/rewrite/compare/mcp-v0.3.3...mcp-v0.3.4) (2026-04-08)
 
 
